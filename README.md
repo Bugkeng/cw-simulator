@@ -1,5 +1,5 @@
 # cw-simulator
-CW Simulator
+CW Simulator && Paddle Key for vband compatibility.
 
 ## Paddle_vband.py 
     Edited from paddle.py
