@@ -8,7 +8,7 @@ import numpy as np
 class PaddleKeySimulator:
     def __init__(self, root):
         self.root = root
-        self.root.title("Morse Code Paddle Key Simulator (Iambic Mode B)")
+        self.root.title("Morse Code Paddle Key Simulator")
         self.root.geometry("850x750")
         self.root.configure(bg='#2c3e50')
         
@@ -74,7 +74,7 @@ class PaddleKeySimulator:
 
     def setup_ui(self):
         # UI setup code remains the same...
-        title_label = tk.Label(self.root, text="MORSE CODE PADDLE KEY SIMULATOR (Iambic Mode B)", 
+        title_label = tk.Label(self.root, text="MORSE CODE PADDLE KEY SIMULATOR", 
                                font=('Courier', 20, 'bold'), fg='#ecf0f1', bg='#2c3e50')
         title_label.pack(pady=10)
         main_frame = tk.Frame(self.root, bg='#2c3e50')
@@ -344,3 +344,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
